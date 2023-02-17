@@ -31,12 +31,21 @@
                     <h3 class="section-subheading text-muted">Complete suas informações </h3>
                 </div> _ _
             </div>
-  
-    <fieldset class="grupo">
-      <div class="campo">
-      <label for="nome"><strong>Nome</strong></label>
-      <input type="text" name="nome" id="nome" required></input>
-      </div>
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Digite seu nome*" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Um nome é requisitado </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Digite seu Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Um Email é requisitado </div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email não é válido .</div>
+                            </div>
+    
 
       <div class="campo">
          <label for="sobrenome"><strong>Sobrenome</strong></label>
