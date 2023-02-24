@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Agency - Start Bootstrap Theme</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <img src="planetas1.webp" height="850" width="1000">
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To Our Studio!</div>
+                <div class="masthead-heading text-uppercase">Prazer em conhece-lo</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">contate-me</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Física</h2>
+                    <h3 class="section-subheading text-muted">“Seria uma coisa triste ser um átomo num universo sem físicos. E os físicos são feitos de átomos. Um físico é a maneira de um átomo saber que existem átomos.”</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-car fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Aceleração</h4>
+                        <p class="text-muted">A velocidade de um corpo nos diz quão rapidamente ele se move. A aceleração nos diz com que rapidez a velocidade muda. A aceleração é a mudança de velocidade dividida pelo tempo.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-atom fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Àtomo</h4>
+                        <p class="text-muted">Entre 1803 e 1807, Dalton propôs o primeiro modelo atômico, a primeira hipótese de como seria a estrutura de um átomo. Para ele, o átomo era a menor parte da matéria e não poderia mais ser dividido. Assim, seria uma partícula esférica, maciça, indivisível e indestrutível.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-charging-station fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Ernegia</h4>
+                        <p class="text-muted">Como e que surgiu a energia?
+                            Foi descoberta por um filosofo grego chamado Tales de Mileto que, ao esfregar um âmbar a um pedaço de pele de carneiro, observou que pedaços de palhas e fragmentos de madeira começaram a ser atraídas pelo próprio âmbar. Do âmbar (gr. élektron) surgiu o nome eletricidade.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Um pouco da riqueza da Física</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" heigh="800" width="600" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="corrente2.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Corrente elétrica</div>
+                                <div class="portfolio-caption-subheading text-muted">"A corrente elétrica é o movimento de cargas elétricas, como os elétrons, que acontece no interior de diferentes materiais, em razão da aplicação de uma diferença de potencial elétrico. A corrente elétrica é a grandeza física que nos permite conhecer qual é a quantidade de carga que atravessa a secção transversal de um condutor a cada segundo. De acordo com o sistema internacional de unidades, a carga elétrica é medida em A.s (amperes vezes segundos), tal unidade, por sua vez, é chamada de coulomb (C)."
+A corrente elétrica é a movimentação de portadores de cargas, como os elétrons, quando aplica-se uma diferença de potencial elétrico a algum material condutor.
+A corrente elétrica é o fluxo de cargas elétricas motivado por uma diferença de potencial.
+                                    
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="campoeletrico.jfif" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Campo elétrico</div>
+                                <div class="portfolio-caption-subheading text-muted">O campo elétrico desempenha a função de transmissor das interações entre cargas elétricas, podendo ser de afastamento ou de aproximação, de acordo com o sinal da carga que o produziu.
+
+                                    As cargas elétricas puntiformes são corpos eletrizados cujas dimensões são desprezíveis se comparadas às distâncias que as separa de outros corpos eletrizados.
+                                    
+                                    Observamos que na região onde existe um campo elétrico, surgirá uma força sobre uma carga puntiforme de prova que for introduzida em algum ponto deste campo. Esta força poderá ser de repulsão ou de atração.</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="lei-de-faraday.webp" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Lei de Faraday</div>
+                                <div class="portfolio-caption-subheading text-muted"> Também chamada de lei da indução magnética, esta lei, elaborada a partir de contribuições de Michael Faraday,  Franz Ernst Neumann e Heinrich Lenz entre 1831 e 1845, quantifica a indução eletromagnética.
+                                    <p>
+                                        Formalmente, a lei da indução eletromagnética é conhecida como lei de Faraday-Neumann-Lenz, no entanto, é frequentemente referida apenas como lei de Faraday. Isso acontece porque o fenômeno da indução foi descoberto por Michael Faraday, mas sua formulação matemática foi feita por Franz Ernst Neumann. Além disso, Heinrich Lenz propôs a necessidade de usar o sinal negativo da fórmula, que diz respeito ao sentido da corrente elétrica induzida.
+
+A lei de Faraday foi de suma importância para o desenvolvimento do eletromagnetismo, uma vez que ela revela a existência de uma relação direta entre fenômenos elétricos e magnéticos, esses que foram tratados como fenômenos de natureza distinta durante muitos anos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="gravidade1.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Gravidade</div>
+                                <div class="portfolio-caption-subheading text-muted">
+                                    "A gravidade é uma das quatro forças fundamentais existentes na natureza. As outras grandezas fundamentais são a força de interação eletromagnética, a força fraca e a força forte. De forma simples, a gravidade é a grandeza responsável por definir o peso de um corpo, força vertical e para baixo que nos mantém unidos ao planeta. Qualquer objeto que se movimenta em queda livre está sob influência da aceleração da gravidade, que na Terra equivale a aproximadamente 9,8 m/s2."
+
+                                    Veja mais sobre "O que é gravidade?" em: https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-gravidade.htm
+                                    
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="Dimensions3.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">
+                                    Dimenções</div>
+                                <div class="portfolio-caption-subheading text-muted">
+                                    Na física, as dimensões são parâmetros utilizados para descrever os fenômenos observados. A física clássica descreve o espaço em três dimensões. A teoria da relatividade geral propõe uma geometria quadridimensional conhecida como espaço-tempo e teorias mais modernas sugerem a existência de dez ou onze dimensões.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="newton.webp" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading"buraco de minhoca</div>
+                                <div class="portfolio-caption-subheading text-muted">A primeira lei de Newton, também conhecida como princípio da inércia, afirma que todo corpo permanece em seu estado de repouso ou em movimento retilíneo e uniforme caso as forças que atuem sobre ele se anulem.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Sobre</h2>
+                    <h3 class="section-subheading text-muted">space</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="atomo2.webp" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">Àtomo</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"> O átomo é a unidade básica de construção da matéria. Sua estrutura possui um núcleo, onde ficam prótons e nêutrons, e uma ampla região em torno dele, constituída por elétrons. Evolução dos modelos atômicos, que são teorias que tentam explicar o funcionamento da matéria.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="cargaeletrica.webp" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                               
+                                <h4 class="subheading">Cargas Elétricas</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">
+                                Carga elétrica é uma propriedade física cuja origem vem das partículas subatômicas prótons e elétrons. Representação artística das cargas elétricas positivas e negativas. Uma carga elétrica, cuja unidade de medida é Coulomb, pode ser representada pelos sinais positivo, para os prótons, e negativo, para os elétrons.</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="massa.webp" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                
+                                <h4 class="subheading">Massa</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">A massa é uma das propriedades físicas da matéria. Pode ser entendida como uma expressão de sua inércia ou ainda como a quantidade de matéria que compõe um corpo. A massa de um corpo pode ser definida como uma expressão de sua inércia ou como a quantidade de matéria que compõe esse corpo.</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmundoeducacao.uol.com.br%2Ffisica%2Faceleracao.htm&psig=AOvVaw3SrU9dm3qDuf6MxRHDv3m8&ust=1677247375446000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPj80cXnq_0CFQAAAAAdAAAAABAD" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                               
+                                <h4 class="subheading">Aceleração</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">A aceleração mede a mudança da velocidade em relação ao tempo. Aceleração é a grandeza física que mede a variação da velocidade de um móvel em função do tempo. A unidade de aceleração no Sistema Internacional de Unidades (SI) é o m/s² (metro por segundo ao quadrado).</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Fim
+                              
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Equipe envolvida</h2>
+                    <h3 class="section-subheading text-muted">Force electron do Senac</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
+                            <h4>Luciana Campos</h4>
+                            <p class="text-muted">Líder</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="sarah.png" alt="..." />
+                            <h4>Sarah Gomes</h4>
+                            <p class="text-muted">Sugestora</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="john.png" alt="..." />
+                            <h4>John Lennon</h4>
+                            <p class="text-muted">Desenvolvedor</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Equipe trabalhando no projeo que envolve Física</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Diga sua Opinião:</h2>
+                    <h3 class="section-subheading text-muted">Seu Feedback</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        
+
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Corrente elétrica</h2>
+                                    <p class="item-intro text-muted">conceito básico e fórmula.</p>
+                                    <img class="img-fluid d-block mx-auto" src="formula-lei-ohm.gif" alt="..." />
+                                    <p>A corrente elétrica é utilizada em circuitos e, devido ao material que a conduz, pode produzir luz, calor e campo elétrico. Para calcular o seu valor, é possível relacionar a quantidade de carga pelo tempo (i = ΔQ/Δt ou i = n.e/Δt) e pela potência (P = U.i ou P = R.i2).</p>
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fechar projeto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Campo Elétrico</h2>
+                                    <p class="item-intro text-muted">Cargas divergentes</p>
+                                    <img class="img-fluid d-block mx-auto" src="Fórmula+do+CampoElétrico.jpg" alt="..." />
+                                    <p>Quando uma carga puntiforme eletrizada está fixa em um ponto, ao seu redor irá surgir um campo elétrico.
+
+                                        A intensidade deste campo depende do meio onde a carga está inserida e poderá ser encontrada através da seguinte fórmula:
+                                        
+                                        começar estilo tamanho matemático 18px E igual a numerador k com 0 subscrito. abre barra vertical Q fecha barra vertical sobre denominador d ao quadrado fim da fração fim do estilo
+                                        
+                                        Sendo:
+                                        
+                                        E: intensidade do campo elétrico (N/C).
+                                        k0: constante eletrostática no vácuo (9.109 N.m2/C2).
+                                        |Q|: módulo da carga (C).
+                                        d: distância entre a carga e um ponto do campo.
+                                        Falando agora sobre a direção e o sentido, considere uma carga elétrica positiva. O campo elétrico dela é desenhado por meio de setas que se deslocam da partícula para longe dela. Já em uma partícula com carga elétrica negativa, o campo elétrico é representado por setas que apontam para a própria partícula.</p>
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fechar projeto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Lei de Farady-Neumann-Lenz</h2>
+                                    <p class="item-intro text-muted">Descrição:</p>
+                                    <img class="img-fluid d-block mx-auto" src="faraday.png" alt="..." />
+                                    <p>A partir da observação dos fluxos magnéticos, Faraday conseguiu observar que existe uma influência dos campos magnéticos com os campos elétricos. 
+
+                                        Quando ocorre variação no fluxo magnético de uma área específica, forma-se ali uma força eletromotriz induzida (ε), com diferença de potencial (ddp). Essa afirmação pode ser escrita matematicamente da seguinte forma:
+                                        
+                                        ε = ΔΦ / Δt
+                                        
+                                        ε é medida em V, volts;
+                                        ΔΦ  representa a variação do fluxo magnético no tempo em questão, de maneira que:  ΔΦ = Φf – Φi;e 
+                                        Δt é a variação do tempo no momento observada, medida em segundos.
+                                        Depois de compreendida a lei de Faraday, Heinrich Lenz observa que a corrente elétrica formada teria sempre o sentido oposto à alteração do Φ. A melhor maneira de adicionar essa observação matematicamente foi a inversão do sinal da fórmula, que agora fica negativa,</p>
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fechar Projeto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Gravidade</h2>
+                                    <p class="item-intro text-muted">Descrição :</p>
+                                    <img class="img-fluid d-block mx-auto" src="gravitação.png" alt="..." />
+                                    <p> poder calcular de forma correta a força gravitacional de um corpo, a equação leva em conta a massa de ambos os corpos e a distância entre eles. As variáveis são definidas a seguir:
+                                    Fgrav é a força da gravidade.
+                                    G é a constante gravitacional universal 6,673 x 10-11 Nm2/kg2[4] .
+                                    m1 é a massa do primeiro corpo.
+                                    m2 é a massa do segundo corpo.
+                                    d é a distância do centro dos dois corpos.
+                                    Às vezes, você vai ver a letras r em vez da letra d. Ambos os símbolos representam a distância entre os corpos.</p>
+                                   
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fechar Projeto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Dimensões</h2>
+                                    <p class="item-intro text-muted">Descrição :</p>
+                                    <img class="img-fluid d-block mx-auto" src="dimensoes.png" alt="..." />
+                                    <p> Os dez mandamentos
+
+                                    Na Teoria das Supercordas, dimensões vão de uma simples reta até um conjunto de big-bangs
+                                    
+                                    <p>1. Antes da primeira dimensão, existe a dimensão zero, que é apenas um ponto. A conexão entre dois pontos forma a primeira dimensão, que é uma reta. Nosso conceito de largura vem dessa conexão entre os pontos.</p>
+                                    <p>
+                                    2. O plano é a segunda dimensão. Para ser bidimensional, um objeto precisa de dois valores numéricos (correspondentes aos nossos conceitos de largura e comprimento) para ser situado, porque ele tem dois eixos.</p>
+                                    
+                                    <p>3. A terceira dimensão é o espaço. Para um objeto, isso significa ganhar profundidade e se tornar tridimensional, ou seja, ser dono de três valores numéricos que o situem (largura, comprimento e profundidade)</p>
+                                    
+                                   <p> 4. A quarta dimensão é a duração ou o tempo. Ela é a linha que leva cada ser quadrimensional (como nós, seres humanos) do começo (eu bebê) ao final da existência (eu velhinho). Nós não percebemos essa dimensão, por isso não podemos voltar ou avançar no tempo para ver nossos “eus” passados e futuros.</p>
+                                    
+                                   <p>5. Na quarta dimensão, a cada momento, uma série de variáveis define o que seremos no instante seguinte. A versão que fica (o eu “normal”) é apenas uma entre infinitas que poderiam rolar (como o “eu viking”, “eu pirata” e “eu palhaço”). A quinta dimensão é o conjunto de todas essas versões.</p>
+                                    
+                                    <p> A sexta dimensão é o caminho entre as possibilidades da 5D. Seria como se todas as suas infinitas versões estivessem dispostas em um plano, como uma folha, e você pudesse dobrar essa folha, encostando um lado (o “eu normal”, por exemplo) em outro lado (como o “eu viking”).</p>
+                                    
+                                   <p> 7a. Os vários “eus” possíveis da 6D estão dentro de um universo. A sétima dimensão pega o conceito de linha temporal da 4D e aplica a todo esse universo, traçando uma linha do tempo que começa no big-bang, evento que teria dado início a tudo.</p>
+                                    
+                                    <p>7b. Mas não é só: a sétima dimensão também diz que, assim como cada um de nós, o universo também pode ter várias versões, e estabelece que existem universos alternativos ao nosso, originados do mesmo big-bang.</p>
+                                    
+                                   <p> 7c. O “nosso” big-bang é apenas uma possibilidade. Podem existir outros big-bangs diferentes que podem ter dado origem a outros universos, os quais também podem ter infinitas versões. A 7D reúne todos os big-bangs e todos os infinitos universos possíveis.</p>
+                                    
+                                   <p>8. Imagine que cada uma dessas bolinhas da imagem acima é um dos big-bangs (com seus respectivos universos derivados) existentes na sétima dimensão. A oitava dimensão é um vértice, um ponto de intersecção a partir do qual se pode chegar a qualquer uma das “bolinhas”.</p>
+                                    
+                                   <p> 9. Partindo da figura da 8D, imagine que o vértice é um ponto onde o plano formado antes pode ser dobrado. A nona dimensão nada mais é do que uma dobra nesse plano, para encostar um big-bang no outro e permitir viajar entre eles – como as viagens entre os “eus” na 6D.</p>
+                                    
+                                    <p>10. A décima dimensão é o conjunto de todos os caminhos para todos os big-bangs, que dão origem a todos os universos. Imagine pegar todas as nove dimensões e juntar tudo num pontinho. Essa é a décima dimensão – o fim do caminho, de onde não há mais para onde ir</p>
+                                  
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fechar Projeto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Leis da Inércia(Newton)</h2>
+                                    <p class="item-intro text-muted">Descrição:</p>
+                                    <img class="img-fluid d-block mx-auto" src="leisNewton.webp" alt="..." />
+                                    <p >A principal grandeza física presente nas leis de Newton é a força (F), que é medida em kg.m/s2, ou simplesmente, em N (newtons, em homenagem ao estudioso). A fórmula para o cálculo da grandeza vetorial da força é:
+
+                                        F = m.a 
+                                        
+                                        m=massa do objeto, em kg
+                                        a=aceleração do objeto, em m/s2</p>
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Fechar Projeto
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
