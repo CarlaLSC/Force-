@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Física</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+        
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="navbar-logo.svg" alt="..." /></a>  
+            </div>
+        </nav> _ _
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Cadastro de Force Electros </h2>
+                    <h3 class="section-subheading text-muted">Complete suas informações </h3>
+                </div> _ _
+            </div>
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch md-12">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Digite seu nome*" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">Um nome é requisitado. </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="sobrenome" type="text" placeholder="Digite seu sobrenome*" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="sobrenome :required">Um sobrenome é requisitado. </div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Digite seu Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">Um Email é requisitado. </div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email não é válido .</div>
+                            </div>
+                            <div class= "form-group">
+                                <h3 class="section-heading">Qual seu usuário? </h3>
+                                <input type="radio" id="visitante" nome="usuario" value="visitante">
+                                   <label for="visitante" class="section-subheading text-muted">Visitante</label>
+                                </input>
+                                <input type="radio" id="aluno" nome="usuario" value="aluno">
+                                   <label for="aluno" class="section-subheading text-muted">Aluno </label>
+                                </input>
+                                <input type="radio" id= "apreciador"nome="usuario" value="apreciador">
+                                   <label for="apreciador" class="section-subheading text-muted">Apreciador</label>
+                                </input>
+    
+                            </div>
+                            <div class="form-group">
+                                <h3 class="section-heading">Nível de conhecimento: </h3>
+                                <select id="nivel ">
+                                   <option selected disable value="">Selecione</option>
+                                   <option>Aprendiz</option>
+                                   <option>Master</option>
+                                   <option>Físico</option> </select>
+                            </div>
+                               
+                       </div>
+        
+                       <div class="col-md-6">
+                           <div class="form-group">
+                               <h3 class="section-heading">Selecione a(s) categoria(s) que tem mais afinidade: </h3>
+                               <input type="checkbox" id="categoria1" name="categoria1" value="campo">
+                                   <label for="categoria1" class="section-subheading text-muted">Campo Elétrico </label></br>
+                               </input>
+                               <input type="checkbox" id="categoria2" name="categoria2" value="corrente">
+                                   <label for="categoria2" class="section-subheading text-muted">Corrente Elétrica </label></br>
+                               </input>
+                               <input type="checkbox" id="categoria3" name="categoria3" value="lei">
+                                   <label for="categoria3" class="section-subheading text-muted">Lei de Faraday </label></br>
+                               </input>
+                               <input type="checkbox" id="categoria4" name="categoria4" value="gravidade">
+                                   <label for="categoria4" class="section-subheading text-muted">Gravidade </label></br>
+                               </input>
+                               <input type="checkbox" id="categoria5" name="categoria5" value="dimensões ">
+                                   <label for="categoria5" class="section-subheading text-muted">Dimensões de acordo com a física </label></br>
+                               </input>
+                               <input type="checkbox" id="categoria6" name="categoria6" value="newton">
+                                   <label for="categoria6" class="section-subheading text-muted">Lei de Inércia(Isaac Newton) </label></br>
+                               </input>
+                               <input type="checkbox" id="categoria7" name="categoria7" value="outros">
+                                   <label for="categoria7" class="section-subheading text-muted">Outros:</label>
+                               </input>
+                           </div>
+
+                           <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Diga sua opinião sobre o conteúdo acima:*" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                               <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase " id="submitButton" type="submit">Concluir </button></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>s
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    
+                </form>
+            </div>
+        </section>
+
+
+
+    
+
+
+
+
+
+
+
+<!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
