@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quiz - Comportamentos no Dreamweaver</title>
+<link href="estilo_quiz.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+</style>
+</head>
+
+<body>
+<h1><img src="imagens/quiz.jpg" alt="Quiz, comportamentos no dreamweaver" id="quiz"></h1>
+<div id="topoCentro">
+<p> Como funciona o teste?</p>
+<p> <img src="imagens/dica.jpg" alt="dica" id="dica"><img src="imagens/quer_mais.jpg" alt="botao 1" id="mais"><img src="imagens/form.jpg" alt="formulário" id="formulario"> </p>
+</div>
+<hr>
+<h2>1. É preciso ter uma imagem nomeada para aplicar o comportamento &quot;Trocar imagem&quot;?</h2>
+<div class="coluna">
+<p><img src="imagens/sim.jpg" alt="sim" id="p1_sim"></p>
+<p><img src="imagens/nao.jpg" alt="não" id="p1_nao"></p>
+</div>
+<div class="coluna" id="resp1">
+<p>Clique na resposta ao lado. Se esse quadro ficar:</p>
+<p>• vermelho &gt; resposta errada</p>
+<p>• verde &gt; resposta certa</p>
+</div>
+
+<h2>2. Qual o primeiro cuidado a ser tomado antes de adicionar um comportamento?</h2>
+<div class="coluna">
+<p><img src="imagens/nomear.jpg" alt="nomear os elementos" id="p2nomear"></p>
+<p id="resp2s"><strong>Sim.</strong><br>
+Nomear todos os elementos da página é a primeira verificação a ser feita.</p>
+</div>
+<div class="coluna">
+<p><img src="imagens/selecionar.jpg" alt="selecionar o elemento" id="p2selecionar"></p>
+<p id="resp2n"><strong>Não.</strong><br>
+Selecionar o elemento é a segunda coisa mais importante antes de adicionar comportamentos.</p>
+</div>
+<h2>3. Os comportamentos no Dreamweaver utilizam que linguagem? Se a imagem balançar, você acertou!</h2>
+<div class="coluna"><img src="imagens/java.jpg" alt="java" id="imgJava"></div>
+<div class="coluna"><img src="imagens/javascript.jpg" alt="javascript" id="imgJavaScript"></div>
+
+<h2>4. Como essa linguagem é adicionada ao conteúdo das páginas?</h2>
+<p><img src="imagens/atributo.jpg" alt="atributo" id="atributo"> <img src="imagens/script_interno.jpg" alt="script interno" id="sInterno"> <img src="imagens/script_externo.jpg" alt="script externo" id="sExterno"></p>
+<div id="resp4">confira...</div>
+
+<h2>5. Um comportamento é composto por quantos itens? A resposta aparecerá no momento certo...</h2>
+<p><img src="imagens/1.jpg" alt="1" id="um"> <img src="imagens/2.jpg" alt="2" id="dois"> <img src="imagens/3.jpg" alt="3" id="tres"></p>
+<div id="resp5">
+<p>Um comportamento é composto por 3 itens:</p>
+<ol>
+<li>Elemento que recebe o comportamento.</li>
+<li>Ação esperada do usuário que dispara o comportamento (handler do evento).</li>
+<li>O comportamento propriamente dito.</li>
+</ol>
+</div>
+
+</body>
+</html>
