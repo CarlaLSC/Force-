@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="
+    width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Formulário</title>
+</head>
+<script>
+    
+    /*const urlParams = new URLSearchParams(widow.location.seach);
+
+    const mensagem = urlParams.get("msg")
+
+    if(mensagem == "S"){
+        alert("Acesso Autorizado");
+    }if(mensagem == "N"){
+        alert("Acesso não Autorizado");
+    }*/
+
+</script>
+<body>
+
+    <div class="container card col-10 mt-3">
+
+        <form action="loginKW.php" method="post">
+
+       <fieldset><legend>Formulário</legend>
+        
+        <label>Nome</label>
+        <input type="text" name="nome" class="form-control">
+    
+
+    <div class="form-group mt-2">
+        <label>Senha</label>
+        <input type="password" name="senha" class="form-control">
+    </div>
+
+    
+    <input type="submit" class="btn btn-primary my-2" value="Enviar">
+</fieldset>
+</form>
+</div>
+
+</body>
+</html>
