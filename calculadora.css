@@ -38,11 +38,11 @@
 
 #resultado{
     width: 207px;
-    background-color: white;
+    background-color: #fff;
     height: 30px;
     margin: 5px;
     font-size: 25px;
-    color: black;
+    color: #ffc800;
     text-align: right;
     padding: 5px;
 }
