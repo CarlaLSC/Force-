@@ -39,10 +39,10 @@
 #resultado{
     width: 207px;
     background-color: #fff;
-    height: 30px;
+    height: 35px;
     margin: 5px;
     font-size: 25px;
     color: #ffc800;
-    text-align: centrer-right;
+    text-align: right;
     padding: 5px;
 }
